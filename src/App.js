@@ -1,12 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Btn from './components/loadMoreBtn/button';
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-      <h2>bitch</h2>
-    </div>
+    <div className="App">{<Btn />}</div>
   );
 }
 

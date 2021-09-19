@@ -1,11 +1,9 @@
+import React from 'react';
 import './App.css';
-import Btn from './components/loadMoreBtn/button';
+import Btn from './components/loadMoreBtn/Button';
+import Container from './components/container/Container';
 function App() {
-  return (
-    // <div className="App">{<Btn />}</div>
-    <div className="App">
-      {/* <div>{<Btn />}</div> */}
-    </div>
-  );
+  const Product = <Container />;
+  return Product;
 }
 export default App;

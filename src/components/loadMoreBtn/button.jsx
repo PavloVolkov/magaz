@@ -1,18 +1,14 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './loadMoreBtn.module.css';
+const button = ({ title }) => {
+  return (
+    <div>
+      <button className={styles.button}>{title}</button>
+    </div>
+  );
+};
 
-const Button = ({ type = 'button', label, disabled }) => {
-    const btnClasses = [styles.button];
-    const titleBtn = [styles.titleBtn];
-    if (disabled) {
-      btnClasses.push(styles.disabled);
-    }
-  
-    return (
-      <button className={btnClasses.join(' ')} type={type} name="load_more">
-        <span className={titleBtn}>load more</span> 
-      </button>
-    );
-  };
+// button.propTypes = {};
 
-  export default Button;
+export default button;

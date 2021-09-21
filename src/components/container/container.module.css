@@ -1,6 +1,6 @@
 .container {
   width: 80%;
-  min-width: 980px;
+  max-width: 1280px;
   outline: 1px solid blue;
   margin: 0 auto;
 }

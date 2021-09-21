@@ -1,0 +1,31 @@
+.buttonGroup {
+    display: flex;
+    width: 100%;
+    outline: 1px solid red;
+    margin-top: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+.button_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 160px;
+    outline: 1px solid red;
+    padding-left: 56px;
+    font-size: 32px;
+    line-height: 39px;
+}
+.button_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 160px;
+    outline: 1px solid red;
+    padding-right: 56px;
+    font-size: 32px;
+    line-height: 39px;
+}

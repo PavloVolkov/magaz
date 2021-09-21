@@ -1,0 +1,71 @@
+.topbar_container {
+    display: flex;
+    justify-content: flex-end;
+}
+.top_bar {
+    display: flex;
+    width: 310px;
+    height: 38px;
+    margin-top: 40px;
+    margin-right: 56px;
+}
+.search_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 36px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.search:before {
+    content: "";
+    display: inline-block;
+    background: no-repeat;
+    width:20px;
+    height: 20px;
+    background-image: url(../../../../icons/search\ 1.svg);
+}
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.cart:before {
+    content: "";
+    display: inline-block;
+    background: no-repeat;
+    width:20px;
+    height: 20px;
+    background-image: url(../../../../icons/shopping-cart\ 1.svg);
+}
+.sign_group{
+    display: flex;
+    justify-content: space-around;
+    width: 222px;
+    height: 36px;
+    
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    color: rgba(21, 105, 99, 1);;
+}
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color: rgba(21, 105, 99, 1);
+    color: #fff;
+}

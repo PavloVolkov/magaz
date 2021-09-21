@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './prodCard.module.css';
-const PrCArd = props => {
-  return <div className={styles.prcard}>{(props.name, props.idd)}</div>;
+const PrCArd = ({name, pos}) => {
+  return <div className={styles.prcard}>{(name)}{(pos)} </div>;
 };
 
 PrCArd.propTypes = {
   name: PropTypes.string,
-  idd: PropTypes.number,
+  pos: PropTypes.number,
 };
 
 export default PrCArd;

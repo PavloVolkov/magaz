@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import ProdCArd from './PrCArd/PrCArd';
 
 const data = {
-  idd: '1',
+  id: '1',
   name: 'first',
 };
 const Main = () => {
   return (
     <>
-      <ProdCArd name={data.name} pos={data.idd} />
+      <ProdCArd name={data.name} pos={data.id} />
     </>
   );
 };

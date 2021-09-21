@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './container.module.css';
 import Main from '../main/Main';
+import Header from '../header/Header'
 
-
-const container = () => {
+const Container = () => {
   return (
     <>
       <div className={styles.container}>
-        <Main />
+        <Header />
       </div>
     </>
   );
 };
 
-export default container;
+export default Container;
